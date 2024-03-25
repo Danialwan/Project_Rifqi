@@ -1,0 +1,133 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #E4FDE1;
+}
+.main {
+    /* background-color: antiquewhite; */
+}
+.menu{
+    width: 650px;
+    height: 90px;
+    border-radius: 30px;
+    background-color: #0B485C;
+    list-style: none;
+    gap: 1vw;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 1vw 4vw;
+}
+.menu a{
+    padding: 0.7vw 1.8vw;
+    border-radius: 15px;
+    color: #E4FDE1;
+    font-weight: 700;
+    font-size: 24px;
+    text-decoration: none;
+    font-family: Raleway;
+}
+.menu .active{
+    background-color: #E4FDE1;
+    color: #114B5F;
+}
+.menu a:hover{
+    background-color: #E4FDE1;
+    color: #114B5F;
+}
+.main .text-box .title{
+    font-size: 80px;
+    font-weight: 600;
+    word-spacing: 20vw;
+    letter-spacing: 0.8vw;
+    color: #114B5F;
+}
+.login .text-box .title{
+    font-size: 70px;
+    font-weight: 600;
+    word-spacing: 20vw;
+    letter-spacing: 0.8vw;
+    color: #114B5F;
+}
+.text-box .desk{
+    font-size: 35px;
+    font-weight: 600;
+    color: #114B5F;
+}
+
+.btn-success{
+    background-color: #0B485C;
+    border: none;
+    /* width: 352px; */
+    /* height: 114px; */
+    border-radius: 20px;
+    font-size: 25px;
+    font-weight: 600;
+    padding: 1.5vw 4vw;
+}
+.btn-success:hover{
+    background-color: #E4FDE1;
+    color: #114B5F;
+    border: 2px solid #114B5F;
+}
+.CustomerService{
+    position: absolute;
+    right:6vw;
+    bottom: 4vw;
+}
+.CustomerService img{
+    width: 5rem;
+}
+.login-form{
+    padding: 0 7vw;
+}
+.login-form .title{
+    font-size: 35px;
+    font-weight: 600;
+    color: #114B5F;
+}
+.login .form-label{
+    font-size: 18px;
+    font-weight:300;
+    color: #114B5F;
+}
+/* .login .form-label::placeholder{
+    color: #114B5F;
+} */
+.login .form-control{
+    background-color: #E4FDE1;
+    border: 1px solid #114B5F;
+    padding: 0.6vw;
+    border-radius: 10px;
+}
+.login .boxlogin-btn{
+    justify-content: space-between;
+}
+.login .boxlogin-btn p{
+    font-size: 16px;
+    font-weight:300;
+    color: #114B5F;
+}
+.login .boxlogin-btn p a{
+    font-weight:500;
+    color: #114B5F;
+    text-decoration: none;
+}
+.login .boxlogin-btn button{
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight:600;
+    background-color: #114B5F;
+    color: #E4FDE1;
+    border-radius: 10px;
+    padding: 0.2vw 2vw;
+    border: none;
+}
+.login .boxlogin-btn button:hover{
+    background-color: #E4FDE1;
+    color: #114B5F;
+    border: 1px solid #114B5F;
+}
