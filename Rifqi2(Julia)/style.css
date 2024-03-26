@@ -74,7 +74,7 @@ body{
     border: 2px solid #114B5F;
 }
 .CustomerService{
-    position: absolute;
+    position: fixed;
     right:6vw;
     bottom: 4vw;
 }
@@ -94,9 +94,6 @@ body{
     font-weight:300;
     color: #114B5F;
 }
-/* .login .form-label::placeholder{
-    color: #114B5F;
-} */
 .login .form-control{
     background-color: #E4FDE1;
     border: 1px solid #114B5F;
@@ -130,4 +127,86 @@ body{
     background-color: #E4FDE1;
     color: #114B5F;
     border: 1px solid #114B5F;
+}
+.doctors .box-content{
+    gap: 3vw;
+}
+.doctors .box-content .content{
+    background-color: #0B485C;
+    width: 333px;
+    height: 324px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    padding: 2.5vw;
+}
+.doctors .box-content .content .btn-content{
+    background-color: #E4FDE1;
+    color: #114B5F;
+    font-size: 17px;
+    font-weight: 600;
+    border-radius: 15px;
+    padding: 0.7vw 1.5vw;
+}
+.doctors .box-content .content .btn-content:hover{
+    background-color: #114B5F;
+    color: #E4FDE1;
+    border: 1px solid #E4FDE1;
+}
+.booking .box-content.booking-form{
+    background-color: #0B485C;
+    width: 936px;
+    height: 524px;
+    color: #E4FDE1;
+    border-radius: 40px;
+    justify-content: center;
+    align-items: center;
+}
+.booking .box-content.booking-form .title{
+    color: #E4FDE1;
+    font-size: 35px;
+    font-weight: 600;
+}
+.booking .box-content.booking-form .btn-booking{
+    background-color: #E4FDE1;
+    color: #114B5F;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 0.5vw 2vw;
+    border-radius: 10px;
+}
+.booking .box-content.booking-form .btn-booking:hover{
+    background-color: #114B5F;
+    color: #E4FDE1;
+    border: 1px solid #E4FDE1 ;
+}
+.booking .box-content.booking-form .form-label{
+    font-size: 18px;
+    font-weight:300;
+    color: #E4FDE1;;
+}
+.booking .box-content.booking-form .form-control{
+    background-color: #114B5F;
+    border: 1px solid #E4FDE1;
+    padding: 0.6vw;
+    border-radius: 10px;
+    color: #E4FDE1;
+}
+.booking .box-content.booking-form .form-control::placeholder{
+    color: #E4FDE1;
+    font-weight: 300;
+}
+.logout{
+    position: absolute;
+    right: 10vw;
+    top: 5vw;
+}
+.logout a{
+    font-weight: 600;
+    color: #114B5F;
+    text-transform: uppercase;
+    font-size: 20px;
+    text-decoration: none;
+    letter-spacing: 2px;
 }
