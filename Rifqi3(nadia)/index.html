@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <nav>
+        <div>
+            <img class="image" src="images/navImg.svg" alt="">
+        </div>
+        <div class="nav-icon d-flex">
+            <a class="icon" href=""><img src="images/cardIcon.svg" alt=""></a>
+            <a class="icon" href=""><img src="images/profileIcon.svg" alt=""></a>
+        </div>
+    </nav>
+    <header>
+        <div class="row1">
+            <div class="text-box">
+                <p>Donna cookies mempunyai kue kering yang rasanya enak dan tekstur nya yang renyah
+                    dengan cita rasa yang berbeda dan menggunakan bahan yang premium,
+                    dijamin bisa jadi cemilan di berbagai acara atau hidangan ringan buat dirumah lho!
+                    </p>
+            </div>
+            <div class="box-image">
+                <img class="image" src="images/headerImage.svg" alt="">
+            </div>
+        </div>
+        <div class="row2">
+            <a class="btn btn-header" href="">Katalog Produk</a>
+        </div>
+    </header>
+    <section class="best-seller d-flex align-items-center flex-column">
+        <b>Best Seller!</b>
+            <div class="box-content d-flex">
+               <div class="content d-flex flex-column align-items-center">
+                <div class="content-image" style="background-image: url('images/thumprint.svg');"></div>
+                <a class="btn btn-best-seller" href="">Thumbprint</a>
+               </div> 
+               <div class="content d-flex flex-column align-items-center">
+                <div class="content-image"  style="background-image: url('images/nastar.svg');"></div>
+                <a class="btn btn-best-seller" href="">Nastar</a>
+               </div> 
+               <div class="content d-flex flex-column align-items-center">
+                <div class="content-image" style="background-image: url('images/sagu.svg');"></div>
+                <a class="btn btn-best-seller" href="">Kue Sagu</a>
+               </div> 
+            </div>
+    </section>
+    <center>
+        <div class="galery">Galery</div>
+    </center>
+    <section class="galery-content d-flex justify-content-center m-3">
+        <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="carousel-image" style="background-image: url('images/carousel1.svg');"></div>
+                <!-- <img src="..." class="d-block w-100" alt="..."> -->
+              </div>
+              <div class="carousel-item">
+                <div class="carousel-image" style="background-image: url('images/carousel2.svg');"></div>
+                <!-- <img src="..." class="d-block w-100" alt="..."> -->
+              </div>
+              <div class="carousel-item">
+                <div class="carousel-image" style="background-image: url('images/carousel3.svg');"></div>
+                <!-- <img src="..." class="d-block w-100" alt="..."> -->
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </section>
+    <section class="review">
+        <b>Reviews</b>
+        <div class="text-box">
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="6" placeholder="Tinggalkan pesan disini!"></textarea>
+            <button type="submit" class="btn btn-submit">Kirim</button>
+          </div>
+    </section>
+    <footer>
+        <ul>
+            <li>
+                <i class="icon" style="background-image: url('images/telephoneIcon.svg'); background-size: 80%;"></i>
+                <!-- <i><img src="images/telephoneIcon.svg" alt=""></i> -->
+                <!-- <img src="images/telephoneIcon.svg" alt=""> -->
+                <p>+6281 9331 94583</p>
+            </li>
+            <li>
+                <i class="icon" style="background-image: url('images/instagramIcon.svg');"></i>
+                <!-- <i><img src="images/instagramIcon.svg" alt=""></i> -->
+                <!-- <img src="images/instagramIcon.svg" alt=""> -->
+                <p>@donnacookies</p>
+            </li>
+            <li>
+                <i class="icon" style="background-image: url('images/locationIcon.svg');"></i>
+                <!-- <i><img src="images/locationIcon.svg" alt=""></i> -->
+                <p>Jl. Penataran Gg IV Banyuwangi</p>
+            </li>
+        </ul>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>
