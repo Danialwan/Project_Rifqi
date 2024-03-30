@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #FFE17B;
+}
+
+.home .menu {
+    display: flex;
+    justify-content: end;
+    gap: 1vw;
+    margin-top: 8vw;
+    margin-right: 2vw;
+    margin-bottom: 2vw;
+}
+.home .menu .link{
+    background-color: #C51605;
+    padding: 0.5vw 3vw;
+    color: white;
+    text-decoration: none;
+}
+.home .about {
+    background-color: #CECE5A;
+    padding: 3vw 7vw;
+    margin-bottom: 10vw;
+    width: 100vw;
+}
+.home .about .image{
+    width: 20vw;
+    height: 20vw;
+    border-radius: 7.5vw;
+    background-image: url('images/logo.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.home .about .btn-pesan{
+    background-color: #C51605;
+    padding: 0.5vw 3vw;
+    text-align: start;
+    width: fit-content;
+    color: white;
+    border-radius: 0;
+}
+.home .about .desk{
+    font-size: 20px;
+}
+
+.home .best-seller{
+    background-color: #CECE5A;
+    padding: 3vw 7vw;
+}
+.home .best-seller .row1{
+    border-bottom: 1px solid black;
+}
+.home .best-seller .row1 p{
+    font-size: 30px;
+    text-align: center;
+    font-weight: 500;
+}
+.home .best-seller .row2{
+    gap: 10vw;
+}
+.home .best-seller .row2 .content{
+    background-color: #FFE17B;
+    padding: 2vw;
+    margin-top: 5vw;
+}
+.home .best-seller .row2 .content .image{
+    width: 15vw;
+    height: 15vw;
+    background-color: black;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.home .best-seller .row2 .content p{
+    margin: 1vw;
+    font-size: 20px;
+}
+footer{
+    background-color: #CECE5A;
+    margin-top: 10vw;
+    padding: 2vw;
+    gap: 2vw;
+    justify-content: space-around;
+}
+footer p{
+    font-size: 30px;
+}
+
+footer .telephone{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1vw;
+}
+
+footer .instagram{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1vw;
+}
+
+footer .telephone img{
+    width: 4vw;
+}
+
+footer .instagram img{
+    width: 4vw;
+}
+footer .cp{
+    font-size: 40px;
+}
