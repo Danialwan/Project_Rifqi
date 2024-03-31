@@ -1,8 +1,9 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-body{
+
+body {
     background-color: #FFE17B;
 }
 
@@ -14,19 +15,22 @@ body{
     margin-right: 2vw;
     margin-bottom: 2vw;
 }
-.home .menu .link{
+
+.home .menu .link {
     background-color: #C51605;
     padding: 0.5vw 3vw;
     color: white;
     text-decoration: none;
 }
+
 .home .about {
     background-color: #CECE5A;
     padding: 3vw 7vw;
     margin-bottom: 10vw;
     width: 100vw;
 }
-.home .about .image{
+
+.home .about .image {
     width: 20vw;
     height: 20vw;
     border-radius: 7.5vw;
@@ -34,9 +38,10 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    
+
 }
-.home .about .btn-pesan{
+
+.home .about .btn-pesan {
     background-color: #C51605;
     padding: 0.5vw 3vw;
     text-align: start;
@@ -44,31 +49,37 @@ body{
     color: white;
     border-radius: 0;
 }
-.home .about .desk{
+
+.home .about .desk {
     font-size: 20px;
 }
 
-.home .best-seller{
+.home .best-seller {
     background-color: #CECE5A;
     padding: 3vw 7vw;
 }
-.home .best-seller .row1{
+
+.home .best-seller .row1 {
     border-bottom: 1px solid black;
 }
-.home .best-seller .row1 p{
+
+.home .best-seller .row1 p {
     font-size: 30px;
     text-align: center;
     font-weight: 500;
 }
-.home .best-seller .row2{
+
+.home .best-seller .row2 {
     gap: 10vw;
 }
-.home .best-seller .row2 .content{
+
+.home .best-seller .row2 .content {
     background-color: #FFE17B;
     padding: 2vw;
     margin-top: 5vw;
 }
-.home .best-seller .row2 .content .image{
+
+.home .best-seller .row2 .content .image {
     width: 15vw;
     height: 15vw;
     background-color: black;
@@ -76,22 +87,25 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 }
-.home .best-seller .row2 .content p{
+
+.home .best-seller .row2 .content p {
     margin: 1vw;
     font-size: 20px;
 }
-footer{
+
+footer {
     background-color: #CECE5A;
     margin-top: 10vw;
     padding: 2vw;
     gap: 2vw;
     justify-content: space-around;
 }
-footer p{
+
+footer p {
     font-size: 30px;
 }
 
-footer .telephone{
+footer .telephone {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -99,7 +113,7 @@ footer .telephone{
     gap: 1vw;
 }
 
-footer .instagram{
+footer .instagram {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -107,13 +121,220 @@ footer .instagram{
     gap: 1vw;
 }
 
-footer .telephone img{
+footer .telephone img {
     width: 4vw;
 }
 
-footer .instagram img{
+footer .instagram img {
     width: 4vw;
 }
-footer .cp{
+
+footer .cp {
     font-size: 40px;
+}
+
+.ourmenu nav {
+    background-color: #FD8D14;
+    padding: 0 3vw;
+    border-radius: 5px;
+}
+
+.ourmenu nav .image {
+    width: 8vw;
+    margin-bottom: 2vw;
+}
+
+.ourmenu nav p {
+    font-family: Big Shoulders Text;
+    font-size: 60px;
+    margin-left: 1vw;
+    font-weight: 600;
+}
+
+.ourmenu .menu {
+    display: flex;
+    justify-content: end;
+    align-self: flex-end;
+    gap: 1vw;
+    margin-right: 2vw;
+    margin-bottom: 2vw;
+}
+
+.ourmenu .menu .link {
+    background-color: #C51605;
+    padding: 0.5vw 3vw;
+    color: white;
+    text-decoration: none;
+}
+.ourmenu .container-content .row1{
+    margin-top: 3vw;
+}
+.ourmenu .container-content .row1 .title{
+    font-size: 40px;
+    text-align: center;
+}
+.ourmenu .container-content .row2{
+    padding: 0 5vw;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+.ourmenu .container-content .row2 a{
+    text-decoration: none;
+    color: black;
+    background-color: #CECE5A;
+    font-size: 20px;
+    padding: 0.5vw 5vw;
+    border-radius: 5px;
+    width: fit-content;
+}
+.ourmenu .container-content .box-content{
+    padding: 3vw 4vw;
+    gap: 2vw;
+    display: flex;
+    justify-content: space-between;
+}
+.ourmenu .container-content .box-content .image-circle{
+    width: 10vw;
+    height: 10vw;
+    border-radius: 5vw;
+    background-color: #C51605;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.ourmenu .container-content .box-content .col-5{
+    gap: 1.5vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ourmenu .container-content .box-content input{
+    width: 5vw;
+    height: 3vw;
+}
+.ourmenu .container-content .box-content p{
+    margin: 0;
+}
+.ourmenu .container-content .box-content .title{
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+}
+.ourmenu .container-content .box-content .price{
+    font-weight: 400;
+    font-size: 25px;
+    text-align: center;
+}
+.ourmenu .quantity{
+    position: fixed;
+    width: 60vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+    color: black;
+    bottom: 0;
+    background-color: #FD8D14;
+    padding: 0.5vw;
+}
+.ourmenu .container-content .lanjut{
+    background-color: #C51605;
+    padding: 0.5vw 3vw;
+    color: white;
+    text-decoration: none;
+    border: none;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin: 0.8vw 4vw;
+}
+
+
+.detail nav {
+    background-color: #FD8D14;
+    padding: 0 3vw;
+    border-radius: 5px;
+}
+
+.detail nav .image {
+    width: 8vw;
+    margin-bottom: 2vw;
+}
+
+.detail nav p {
+    font-family: Big Shoulders Text;
+    font-size: 60px;
+    margin-left: 1vw;
+    font-weight: 600;
+}
+
+.detail .menu {
+    display: flex;
+    justify-content: end;
+    align-self: flex-end;
+    gap: 1vw;
+    margin-right: 2vw;
+    margin-bottom: 2vw;
+}
+
+.detail .menu .link {
+    background-color: #C51605;
+    padding: 0.5vw 3vw;
+    color: white;
+    text-decoration: none;
+}
+.detail .container-detail{
+    background-color: #CECE5A;
+    margin-top: 5vw;
+    padding: 3vw 5vw;
+}
+.detail .container-detail .box-detail{
+    background-color: #FFE17B;
+    padding: 2vw;
+}
+.detail .container-detail .box-detail .order{
+    align-items: center;
+    border-bottom: 1px solid black;
+    padding: 0.5vw;
+}
+.detail .container-detail .box-detail .order .title{
+    font-size: 25px;
+    font-weight: 500;
+}
+.detail .container-detail .box-detail .order .price{
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.detail .container-detail .box-detail .order .quantity{
+    font-size: 25px;
+    font-weight: 500;
+    margin-left: 1vw;
+}
+.detail .container-detail .box-detail .image{
+    background-color: aliceblue;
+    width: 4vw;
+    height: 4vw;
+    border-radius: 2vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.detail .container-detail .total{
+    font-size: 30px;
+    margin-top: 4vw;
+}
+.detail .lanjut{
+    background-color: #C51605;
+    padding: 0.5vw 3vw;
+    color: white;
+    text-decoration: none;
+    border: none;
+    /* position: fixed; */
+    /* bottom: 0; */
+    /* right: 0; */
+    margin: 2vw 4vw;
 }
